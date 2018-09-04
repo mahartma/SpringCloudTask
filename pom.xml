@@ -15,7 +15,7 @@
     </parent>
 
     <properties>
-        <start-class>com.example.SampleTask</start-class>
+        <start-class>de.codecentric.workshop.task.TaskApp</start-class>
     </properties>
 
     <dependencyManagement>

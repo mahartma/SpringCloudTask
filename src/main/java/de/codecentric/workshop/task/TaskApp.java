@@ -20,7 +20,7 @@ public class TaskApp {
 
     @Bean
     public CommandLineRunner command1() {
-        return args -> {throw new RuntimeException();};
+        return args -> System.out.println("adsasd");
     }
 
     @AfterTask
