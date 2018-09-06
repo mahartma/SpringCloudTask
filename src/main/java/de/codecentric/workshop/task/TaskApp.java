@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Bean;
 public class TaskApp {
 
     public static void main(String[] args) {
-        ApplicationContext ctx = SpringApplication.run(TaskApp.class, new String[]{"11"});
+        ApplicationContext ctx = SpringApplication.run(TaskApp.class, args);
     }
 
     @Bean
